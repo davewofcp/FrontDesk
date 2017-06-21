@@ -1,0 +1,25 @@
+CREATE TABLE `payroll_timecards` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `users__id` int(10) unsigned DEFAULT NULL,
+  `punch_date` date DEFAULT NULL,
+  `punch_in` time DEFAULT NULL,
+  `punch_in_apt` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `break_out` time DEFAULT NULL,
+  `break_out_apt` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `break_in` time DEFAULT NULL,
+  `break_in_apt` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `punch_out` time DEFAULT NULL,
+  `punch_out_apt` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `hours_worked` double DEFAULT '0',
+  `is_m_in` boolean DEFAULT '0',
+  `is_m_b_out` boolean DEFAULT '0',
+  `is_m_b_in` boolean DEFAULT '0',
+  `is_m_out` boolean DEFAULT '0',
+  `addrs` text,
+  `edits` text,
+  `org_entities__id` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`users__id`) REFERENCES `users` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  FOREIGN KEY (`org_entities__id`) REFERENCES `org_entities` (`id`) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--

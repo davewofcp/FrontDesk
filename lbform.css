@@ -1,0 +1,165 @@
+  #event_form {
+  	position: absolute;
+  	width: 700px;
+  	height: 400px;
+    margin: -100px 0px 0px -250px; 
+  	z-index: 10001;
+  	display: none;
+  	background-color: white;
+  	font:13px Tahoma;
+  	text-align: left;    
+  	/* border: 2px outset gray; */ 
+  	border-radius: 10px;
+  } .lightBoxButton {
+    border-radius:10px;
+  } .lightBoxButton2 {
+  	background: -moz-linear-gradient(top,#ffffff 0%,#d6d6d6 50%,#d1d1d1 50%,#a8a8a8);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),color-stop(0.50, #d6d6d6),color-stop(0.50, #d1d1d1),to(#a8a8a8));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-color:#CCCCCC;
+  	-moz-box-shadow:
+  		1px 1px 1px rgba(010,010,010,0.6),
+  		inset 0px 0px 23px rgba(255,255,255,0.9);
+  	-webkit-box-shadow:
+  		1px 1px 1px rgba(010,010,010,0.6),
+  		inset 0px 0px 23px rgba(255,255,255,0.9);
+  	box-shadow:
+  		1px 1px 1px rgba(010,010,010,0.6),
+  		inset 0px 0px 23px rgba(255,255,255,0.9);
+  	text-shadow:
+  		0px 1px 0px rgba(255,255,255,1),
+  		0px 0px 0px rgba(255,255,255,0);	
+  } .lboxHead {
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    width:90px;
+    margin:3px 0px 0px 0px;  
+  } .lboxBody {
+    float: left;
+    margin:0px 0px 0px 3px;
+  }  
+  .key_event_type {
+    float:left;
+    height:13px;
+    width:25px;
+    border-radius:5px;
+  } 
+  .key_event_type_val {  
+    float:left;
+    margin:-1px 0 0 4px;
+    font-weight: bold;
+  }
+  
+  .blueForm {
+    background: #eff7ff;
+    background: -moz-radial-gradient(center, ellipse cover,  #eff7ff 0%, #d8ebff 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#eff7ff), color-stop(100%,#d8ebff));
+    background: -webkit-radial-gradient(center, ellipse cover,  #eff7ff 0%,#d8ebff 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #eff7ff 0%,#d8ebff 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #eff7ff 0%,#d8ebff 100%);
+    background: radial-gradient(ellipse at center,  #eff7ff 0%,#d8ebff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff7ff', endColorstr='#d8ebff',GradientType=1 );
+    border:2px outset #0033CC;
+  }
+  .greenForm {
+    background: #e5efcb;
+    background: -moz-radial-gradient(center, ellipse cover,  #e5efcb 0%, #d2f288 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e5efcb), color-stop(100%,#d2f288));
+    background: -webkit-radial-gradient(center, ellipse cover,  #e5efcb 0%,#d2f288 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #e5efcb 0%,#d2f288 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #e5efcb 0%,#d2f288 100%);
+    background: radial-gradient(ellipse at center,  #e5efcb 0%,#d2f288 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5efcb', endColorstr='#d2f288',GradientType=1 );      
+    border:2px outset #476800;  
+  }
+  .orangeForm {
+    background: #fff2d8;
+    background: -moz-radial-gradient(center, ellipse cover,  #fff2d8 0%, #ffdb93 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fff2d8), color-stop(100%,#ffdb93));
+    background: -webkit-radial-gradient(center, ellipse cover,  #fff2d8 0%,#ffdb93 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #fff2d8 0%,#ffdb93 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #fff2d8 0%,#ffdb93 100%);
+    background: radial-gradient(ellipse at center,  #fff2d8 0%,#ffdb93 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d8', endColorstr='#ffdb93',GradientType=1 );
+    border:2px outset #926900;  
+  }
+  .greyForm {
+    background: #fcfff4;
+    background: -moz-radial-gradient(center, ellipse cover,  #fcfff4 0%, #dbdde0 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fcfff4), color-stop(100%,#dbdde0));
+    background: -webkit-radial-gradient(center, ellipse cover,  #fcfff4 0%,#dbdde0 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #fcfff4 0%,#dbdde0 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #fcfff4 0%,#dbdde0 100%);
+    background: radial-gradient(ellipse at center,  #fcfff4 0%,#dbdde0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#dbdde0',GradientType=1 );
+    border:2px outset #666666;  
+  }
+  .defaultForm {
+  	background: white;
+  	border: 2px outset gray;  
+  }
+    
+  .blueEvent{
+    background-image:none;
+      background: #cee6ff;
+      background: -moz-linear-gradient(top,  #cee6ff 46%, #7fbfff 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#cee6ff), color-stop(100%,#7fbfff)); 
+      background: -webkit-linear-gradient(top,  #cee6ff 46%,#7fbfff 100%); 
+      background: -o-linear-gradient(top,  #cee6ff 46%,#7fbfff 100%); 
+      background: -ms-linear-gradient(top,  #cee6ff 46%,#7fbfff 100%); 
+      background: linear-gradient(to bottom,  #cee6ff 46%,#7fbfff 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee6ff', endColorstr='#7fbfff',GradientType=0 );
+    border-color:#0033CC;   
+  } .blueEvent .dhx_header,.blueEvent .dhx_title,.blueEvent .dhx_menu_head,.blueEvent .dhx_body,.blueEvent .dhx_menu_icon,.blueEvent .dhx_footer{
+    background-color: #cee6ff;
+    border-color:#0033CC;   
+  }  
+  .greenEvent{    
+    background-image:none;
+    background: #def1b3;
+    background: -moz-linear-gradient(top,  #def1b3 0%, #c2db8d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#def1b3), color-stop(100%,#c2db8d));
+    background: -webkit-linear-gradient(top,  #def1b3 0%,#c2db8d 100%);
+    background: -o-linear-gradient(top,  #def1b3 0%,#c2db8d 100%);
+    background: -ms-linear-gradient(top,  #def1b3 0%,#c2db8d 100%);
+    background: linear-gradient(to bottom,  #def1b3 0%,#c2db8d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#def1b3', endColorstr='#c2db8d',GradientType=0 );
+    border-color:#476800;  
+  }.greenEvent .dhx_header,.greenEvent .dhx_title,.greenEvent .dhx_menu_head,.greenEvent .dhx_body,.greenEvent .dhx_menu_icon,.greenEvent .dhx_footer{
+    background-color: #def1b3;
+    border-color:#476800;   
+  }  
+  .orangeEvent{  
+    background-image:none;
+    background: #FFDB93;
+    background: -moz-linear-gradient(top,  #ffe18e 0%, #f9c645 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe18e), color-stop(100%,#f9c645));
+    background: -webkit-linear-gradient(top,  #ffe18e 0%,#f9c645 100%);
+    background: -o-linear-gradient(top,  #ffe18e 0%,#f9c645 100%);
+    background: -ms-linear-gradient(top,  #ffe18e 0%,#f9c645 100%);
+    background: linear-gradient(to bottom,  #ffe18e 0%,#f9c645 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe18e', endColorstr='#f9c645',GradientType=0 );
+    border-color: #926900;
+  }.orangeEvent .dhx_header,.orangeEvent .dhx_title,.orangeEvent .dhx_menu_head,.orangeEvent .dhx_body,.orangeEvent .dhx_menu_icon,.orangeEvent .dhx_footer{
+    background-color: #FFDB93;
+    border-color:#926900;   
+  }
+  .greyEvent{
+    background-image: none;
+    background: #D3D3D3;
+    background: -moz-linear-gradient(top,  #fcfff4 0%, #bbbfc3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(100%,#bbbfc3));
+    background: -webkit-linear-gradient(top,  #fcfff4 0%,#bbbfc3 100%);
+    background: -o-linear-gradient(top,  #fcfff4 0%,#bbbfc3 100%);
+    background: -ms-linear-gradient(top,  #fcfff4 0%,#bbbfc3 100%);
+    background: linear-gradient(to bottom,  #fcfff4 0%,#bbbfc3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#bbbfc3',GradientType=0 );
+    border-color:#666666;
+  }.greyEvent .dhx_header,.greyEvent .dhx_title,.greyEvent .dhx_menu_head,.greyEvent .dhx_body,.greyEvent .dhx_menu_icon,.greyEvent .dhx_footer{
+    background-color: #D3D3D3;
+    border-color:#666666;   
+  }
+      

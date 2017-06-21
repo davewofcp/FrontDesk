@@ -1,0 +1,5 @@
+-- REQUIRES `inventory`
+-- REQUIRES `customers`
+-- REQUIRES `users`
+-- REQUIRES `services`
+-- REQUIRES `invoices`

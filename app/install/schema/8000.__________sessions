@@ -1,0 +1,5 @@
+-- REQUIRES `organization`
+-- REQUIRES `customers`
+-- REQUIRES `users`
+-- REQUIRES `inventory`
+-- REQUIRES `issues`

@@ -1,0 +1,62 @@
+* inventory_type_devices.inventory_item_number -> inventory_items.id
+
+* inventory_items.issues__id -> issues.id
+
+* issues.device_id -> inventory_type_devices.id
+
+
+
+---------------------------
+
+inventory
+
+invoices
+
+inventory_items
+
+    inventory
+
+inventory_type_devices
+
+    inventory_items
+
+issues
+
+    inventory_type_devices
+    invoices
+
+inventory_items_customer
+
+inventory_changes
+
+inventory_transfers
+
+inventory_requests
+
+invoice_changes
+
+issue_changes
+
+issue_inventory
+
+issue_items
+
+==============================
+
+messages.frn_code obsoleted, removed from schemas and code, not mapped in migration script
+
+issues.services__id obsoleted, all values set NULL
+
+inventory_items.issues__id obsoleted, all value set NULL
+
+==============================
+
+
+
+
+-------------------------
+
+updated messages
+updated triggers
+updated issue numbers in varchar fields
+
